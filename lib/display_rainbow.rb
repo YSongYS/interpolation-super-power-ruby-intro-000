@@ -2,6 +2,6 @@
 def display_rainbow (colors)
   stringprint = ""
   colors.each {|color| stringprint << "#{color[0].upcase}: #{color}, "}
-  stringprint.chop.chop
-  print stringprint
+  stringprint = stringprint.chop.chop
+  puts stringprint
 end
